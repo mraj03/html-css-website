@@ -2,7 +2,15 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
 
+.left-side {
+    color: white;
+}
 
 .nav-bar {
     display: flex;
@@ -14,6 +22,7 @@
 .nav-items {
     display: flex;
     justify-content: space-around;
+    color: white;
 }
 
 .nav-links {
@@ -58,7 +67,6 @@
 }
 
 .sign-up {
-    width: fit-content;
     background-color: #3882f6;
     border-radius: 8px;
     padding: 16px;
@@ -66,4 +74,59 @@
     font-weight: 600;
     color: white;
     border-color: #1f2937;
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-env {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    gap: 40px;
+    padding-bottom: 80px;
+}
+
+.info-card {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #3882f6;
+}
+
+.quote {
+    width: auto;
+    padding: 100px;
+    text-align: center;
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.sign-up-form {
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 100px;
+    border-radius: 8px;
+}
+
+.footer {
+    text-align: center;
+    padding: 50px;
+    background-color: #1f2937;
+    color: white;
+}
+
+.footer .personal {
+    color: white;
 }
